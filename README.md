@@ -43,17 +43,23 @@ docker build -t sman3-website .
 ### Run Container
 
 ```bash
-docker run -p 80:80 sman3-website
+docker run -p 3000:3000 sman3-website
 ```
 
 ## Deploy ke Dokploy
 
 1. Push code ke GitHub repository: https://github.com/huongpham911/edu3.git
 2. Di Dokploy dashboard, buat new application
-3. Connect dengan GitHub repository
+3. Connect với GitHub repository
 4. Set build context ke root directory
 5. Dockerfile sẽ automatically được detect
-6. Deploy
+6. Set port mapping: 3000:3000
+7. Deploy
+
+**Container Configuration:**
+- Internal Port: 3000
+- External Port: 3000
+- Protocol: HTTP
 
 ## Struktur Project
 
