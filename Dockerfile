@@ -13,8 +13,16 @@ RUN npm ci
 # Copy source code
 COPY . .
 
+# Clean any existing build
+RUN rm -rf build
+
 # Build the app
 RUN npm run build
+
+# Verify build was successful
+RUN ls -la build/
+RUN ls -la build/static/js/
+RUN ls -la build/static/css/
 
 # Production stage
 FROM nginx:alpine
