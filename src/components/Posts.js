@@ -9,7 +9,7 @@ const Posts = () => {
       excerpt: "Hallo calon siswa baru SMA Negeri 3 Lawe Sigala-gala, lihat hari ini kakak kelas kalian sedang belajar di lapangan sekolah, jadi kita gak melulu belajar di kelas ya, jadi tunggu apalagi, ayok bergabung di sekolah SMA Negeri 3 Lawe Sigala-gala tahun 2025/2026. Bapak tunggu kalian ya 👍👍👍",
       date: "15 September 2024",
       category: "Penerimaan Siswa",
-image: "/images/post1.jpg"
+      image: "/image/518400169_24665207633063319_1115802927334961878_n.jpg"
     },
     {
       id: 2,
@@ -17,7 +17,7 @@ image: "/images/post1.jpg"
       excerpt: "Hallo calon siswa baru SMA Negeri 3 Lawe Sigala-gala, kalau kamu suka praktikum kayak gini, jangan ragu bergabung di sekolah kita ya, bapak tunggu kamu menjadi siswa bapak paling keren 👍👍👍",
       date: "12 September 2024",
       category: "Kegiatan Akademik",
-image: "/images/post2.jpg"
+      image: "/image/522624584_24682633954654020_6007547798442135212_n.jpg"
     },
     {
       id: 3,
@@ -25,7 +25,7 @@ image: "/images/post2.jpg"
       excerpt: "Pelatihan guru MGMP mata pelajaran [Biologi, Kimia, Geografi] tentang penerapan buku suplemen kurikulum muatan lokal lingkungan ekosistem leuser jenjang SMA se-Aceh. Bekerjasama dengan yayasan www.haka.go.id dan dihadiri 23 kabupaten kota provinsi aceh. Terimakasih bapak kadis pendidikan aceh Marthunis Muhammad dan rombongan kacabdin aceh tenggara Jufri RM dan jajarannya, kepala sekolah Tanwir Dan Auliya turut mendampingi kegiatan. Kesempatan yang luar biasa ini sangat memberikan makna bahwa pendidikan turut menjaga dan melestarikan kawasan ekosistem leuser.",
       date: "10 September 2024",
       category: "Pengembangan SDM",
-image: "/images/post3.jpg"
+      image: "/image/526923692_24749131774670904_2884590896231403647_n.jpg"
     }
   ];
 

@@ -8,19 +8,19 @@ const Hero = () => {
   const slides = [
     {
       id: 1,
-      image: '/images/slide1.jpg',
+      image: '/image/518278709_24618685044382245_2119788954850869200_n.jpg',
       title: 'Selamat Datang di SMAN 3 Lawe Sigala-gala',
       subtitle: 'Membangun Generasi Berkualitas dan Berkarakter'
     },
     {
       id: 2,
-      image: '/images/slide2.jpg',
+      image: '/image/521532473_122212835006247601_8064058430936985152_n.jpg',
       title: 'Fasilitas Pembelajaran Modern',
       subtitle: 'Laboratorium dan Sarana Penunjang Terdepan'
     },
     {
       id: 3,
-      image: '/images/slide3.jpg',
+      image: '/image/526213209_24749135218003893_4607350456858563895_n.jpg',
       title: 'Prestasi dan Keunggulan',
       subtitle: 'Meraih Prestasi di Tingkat Regional dan Nasional'
     }
