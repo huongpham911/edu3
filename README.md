@@ -1,49 +1,84 @@
-# Getting Started with Create React App
+# SMAN 3 Lawe Sigala-gala Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Website resmi SMA Negeri 3 Lawe Sigala-gala yang dibuat dengan React.js.
 
-## Available Scripts
+## Fitur
 
-In the project directory, you can run:
+- **Home/Hero Section**: Slider gambar dengan informasi sekolah
+- **About**: Profil sekolah, visi, misi, dan fasilitas
+- **Posts**: Berita dan kegiatan terbaru
+- **Contact**: Informasi kontak dan lokasi sekolah
+- **Responsive Design**: Optimized untuk desktop dan mobile
 
-### `npm start`
+## Teknologi
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- React.js 19
+- CSS3 dengan responsive design
+- Nginx untuk production
+- Docker untuk deployment
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Development
 
-### `npm test`
+```bash
+# Install dependencies
+npm install
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Start development server
+npm start
 
-### `npm run build`
+# Build untuk production
+npm run build
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Website akan berjalan di http://localhost:3000
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Docker Deployment
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Build Docker Image
 
-### `npm run eject`
+```bash
+docker build -t sman3-website .
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Run Container
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+docker run -p 80:80 sman3-website
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Deploy ke Dokploy
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. Push code ke GitHub repository: https://github.com/huongpham911/edu3.git
+2. Di Dokploy dashboard, buat new application
+3. Connect dengan GitHub repository
+4. Set build context ke root directory
+5. Dockerfile sẽ automatically được detect
+6. Deploy
 
-## Learn More
+## Struktur Project
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```
+src/
+├── components/
+│   ├── Header.js & Header.css
+│   ├── Hero.js & Hero.css
+│   ├── About.js & About.css
+│   ├── Posts.js & Posts.css
+│   ├── Contact.js & Contact.css
+│   └── Footer.js & Footer.css
+├── App.js
+└── App.css
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+public/
+└── image/           # Folder chứa hình ảnh
+```
+
+## Informasi Sekolah
+
+- **Nama**: SMAN 3 Lawe Sigala-gala
+- **Alamat**: 8W3H+4G, Pardomuan II, Kec. Babul Makmur, Kabupaten Aceh Tenggara, Aceh 24673
+- **Website**: smanegeri3lawesigalagala.my.id
+- **Email**: admin@smanegeri3lawesigalagala.my.id
 
 ### Code Splitting
 

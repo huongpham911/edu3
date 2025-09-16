@@ -1,5 +1,5 @@
 .about {
-  padding: 6rem 0 4rem 0;
+  padding: 3rem 0 2rem 0;
   background: linear-gradient(135deg, #f8f9fa, #e9ecef);
 }
 
@@ -11,7 +11,7 @@
 
 .about-header {
   text-align: center;
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
 }
 
 .section-title {
@@ -42,9 +42,9 @@
 
 .about-content {
   display: grid;
-  grid-template-columns: 2fr 1fr;
-  gap: 4rem;
-  margin-bottom: 4rem;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  margin-bottom: 3rem;
 }
 
 .about-info {
